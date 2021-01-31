@@ -1,5 +1,8 @@
 package com.kayukicoin.spring.listener.demo.event;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SnowListener implements WeatherListener {
     @Override
     public void onWeatherEvent(WeatherEvent event) {
